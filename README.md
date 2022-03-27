@@ -1,5 +1,6 @@
 Clean code will be uploaded soon.
 Official Code submitted to the conference is [here](https://github.com/VimsLab/MeshNet2/issues/1).
+Email to vinitvs@udel.edu to get access to the data.
 # MeshNet++: A Network with a Face
 Official PyTorch implementation for [MeshNet++: A Network with a Face](https://dl.acm.org/doi/abs/10.1145/3474085.3475468). The code has been implemented and tested on the Ubuntu operating system only.
 
