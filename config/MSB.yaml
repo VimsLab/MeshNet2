@@ -1,0 +1,70 @@
+cuda_devices: '0'
+
+# Network hyper-parameters
+batch_size: 16
+max_epoch: 300
+lr: 0.0002
+num_kernel: 64
+ConvSurface:
+  num_samples_per_neighbor: 4
+  rs_mode: 'Weighted' # Uniform/Weighted
+  num_kernel: 64
+MeshBlock:
+  blocks: [3, 4, 4]
+pool_rate: 2
+
+# Dataset configuration
+augment: True
+num_cls: 19
+num_faces: 500
+
+MSB_1:
+  num_train: 190
+  num_val: 268
+  num_test: 268
+  ckpt_root: './ckpt_root/MSB/MSB_1'
+MSB_2:
+  num_train: 190
+  num_val: 268
+  num_test: 268
+  ckpt_root: './ckpt_root/MSB/MSB_2'
+MSB_3:
+  num_train: 190
+  num_val: 268
+  num_test: 268
+  ckpt_root: './ckpt_root/MSB/MSB_3'
+MSB_4:
+  num_train: 190
+  num_val: 268
+  num_test: 268
+  ckpt_root: './ckpt_root/MSB/MSB_4'
+MSB_5:
+  num_train: 190
+  num_val: 268
+  num_test: 268
+  ckpt_root: './ckpt_root/MSB/MSB_5'
+MSB_6:
+  num_train: 190
+  num_val: 268
+  num_test: 268
+  ckpt_root: './ckpt_root/MSB/MSB_6'
+MSB_7:
+  num_train: 190
+  num_val: 268
+  num_test: 268
+  ckpt_root: './ckpt_root/MSB/MSB_7'
+MSB_8:
+  num_train: 190
+  num_val: 268
+  num_test: 268
+  ckpt_root: './ckpt_root/MSB/MSB_8'
+MSB_9:
+  num_train: 190
+  num_val: 268
+  num_test: 268
+  ckpt_root: './ckpt_root/MSB/MSB_9'
+MSB_10:
+  num_train: 190
+  num_val: 268
+  num_test: 268
+  ckpt_root: './ckpt_root/MSB/MSB_10'

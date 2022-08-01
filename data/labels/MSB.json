@@ -1,0 +1,21 @@
+{
+  "airplane": 0,
+  "ant": 1,
+  "birds": 2,
+  "crabs": 3,
+  "chairs": 4,
+  "cups": 5,
+  "dinosaurs": 6,
+  "dolphins": 7,
+  "fishes": 8,
+  "four_limbs": 9,
+  "hands": 10,
+  "humans": 11,
+  "octopus": 12,
+  "pliers": 13,
+  "snakes": 14,
+  "spectacles": 15,
+  "spiders": 16,
+  "tables": 17,
+  "teddy_bear": 18
+}

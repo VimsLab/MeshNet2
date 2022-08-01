@@ -1,0 +1,51 @@
+cuda_devices: '0'
+
+# Network hyper-parameters
+batch_size: 16
+max_epoch: 300
+lr: 0.0002
+
+# Model configuration
+num_kernel: 64
+ConvSurface:
+  num_samples_per_neighbor: 4
+  rs_mode: 'Weighted' # Uniform/Weighted
+  num_kernel: 64
+MeshBlock:
+  blocks: [3, 4, 4]
+pool_rate: 2
+
+# Dataset configuration
+augment: True
+num_cls: 30
+num_faces: 500
+16-04_A:
+  num_train: 480
+  num_val: 120
+  num_test: 120
+  ckpt_root: './ckpt_root/SHREC11/16-04_A'
+16-04_B:
+  num_train: 480
+  num_val: 120
+  num_test: 120
+  ckpt_root: './ckpt_root/SHREC11/16-04_B'
+16-04_C:
+  num_train: 480
+  num_val: 120
+  num_test: 120
+  ckpt_root: './ckpt_root/SHREC11/16-04_C'
+10-10_A:
+  num_train: 300
+  num_val: 300
+  num_test: 300
+  ckpt_root: './ckpt_root/SHREC11/10-10_A'
+10-10_B:
+  num_train: 300
+  num_val: 300
+  num_test: 300
+  ckpt_root: './ckpt_root/SHREC11/10-10_B'
+10-10_C:
+  num_train: 300
+  num_val: 300
+  num_test: 300
+  ckpt_root: './ckpt_root/SHREC11/10-10_C'

@@ -1,0 +1,30 @@
+# Device specific configuration
+cuda_devices: '0, 1'
+
+# Training configuration
+batch_size: 16
+max_epoch: 300
+lr: 0.0002
+momentum: 0.9
+weight_decay: 0.0005
+milestones: [30, 60]
+gamma: 0.1
+
+# Model configuration
+num_kernel: 64
+ConvSurface:
+  num_samples_per_neighbor: 4
+  rs_mode: 'Weighted'
+  num_kernel: 64
+MeshBlock:
+  blocks: [3, 4, 4]
+pool_rate: 4
+
+# Dataset configuration
+num_train: 3991
+num_val: 908
+num_test: 908
+augment: False
+num_cls: 10
+num_faces: 1024
+ckpt_root: './ckpt_root/ModelNet10'

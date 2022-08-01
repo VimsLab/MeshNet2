@@ -1,0 +1,31 @@
+# Device specific configuration
+cuda_devices: '0, 1'
+
+# Training configuration
+batch_size: 48
+max_epoch: 300
+lr: 0.0002
+momentum: 0.9
+weight_decay: 0.0005
+milestones: [60, 150]
+gamma: 0.1
+
+# Model configuration
+num_kernel: 64
+ConvSurface:
+  num_samples_per_neighbor: 4
+  rs_mode: 'Weighted'
+  num_kernel: 64
+MeshBlock:
+  blocks: [3, 4, 4]
+pool_rate: 2
+
+
+# Dataset configuration
+num_train: 6699
+num_val: 3293
+num_test: 3293
+augment: False
+num_cls: 34
+num_faces: 1024
+ckpt_root: './ckpt_root/FUTURE3D'
