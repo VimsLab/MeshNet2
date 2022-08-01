@@ -17,3 +17,14 @@ python train_val.py SHREC11 16-04_A
 ```
 python test.py SHREC11 16-04_A
 ```
+
+#Citatiom
+```
+@inproceedings{singh2021meshnet++,
+  title={MeshNet++: A Network with a Face},
+  author={Singh, Vinit Veerendraveer and Sheshappanavar, Shivanand Venkanna and Kambhamettu, Chandra},
+  booktitle={Proceedings of the 29th ACM International Conference on Multimedia},
+  pages={4883--4891},
+  year={2021}
+}
+```
