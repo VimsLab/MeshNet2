@@ -18,7 +18,7 @@ python train_val.py SHREC11 16-04_A
 python test.py SHREC11 16-04_A
 ```
 
-#Citatiom
+## Citatiom
 ```
 @inproceedings{singh2021meshnet++,
   title={MeshNet++: A Network with a Face},
