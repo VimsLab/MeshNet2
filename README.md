@@ -18,7 +18,7 @@ conda install pytorch3d -c pytorch3d
 ```
 
 ## Download data set
-Download the pre-processed data sets in the datasets/<dataset>/raw/ directory. Files are in the OBJ file format (.obj). For the MSB and SHREC11 and all mesh model consists of precisely 500 faces. For ModelNet10, ModelNet40, and 3D-FUTURE all mesh model consists of precisely 1024 faces.
+Download the pre-processed data sets in the datasets/&#60;dataset&#62;/ directory. Files are in the OBJ file format (.obj). For the MSB and SHREC11 and all mesh model consists of precisely 500 faces. For ModelNet10, ModelNet40, and 3D-FUTURE all mesh model consists of precisely 1024 faces.
 
 ## Train
 ```
