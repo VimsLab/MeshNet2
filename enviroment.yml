@@ -1,0 +1,5 @@
+name: MeshNet2
+channels:
+- default
+dependencies:
+- python = 3.8
